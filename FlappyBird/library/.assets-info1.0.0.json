@@ -1,0 +1,331 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\animations": {
+      "time": 1731407060369.1501,
+      "uuid": "c68099f0-3024-4f2d-96bc-e56d20f1531d"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\audios": {
+      "time": 1731407060429.523,
+      "uuid": "16cb39bc-5950-490e-aa56-1ae1f33a56b4"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\prefabs": {
+      "time": 1731407060430.4243,
+      "uuid": "f9f53a9f-c88c-4da9-a5b7-b91b7a7963e2"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scenes": {
+      "time": 1731407060431.4243,
+      "uuid": "788131b5-93bc-4a6a-a0fa-65919402dd1f"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts": {
+      "time": 1731407060436.424,
+      "uuid": "b5e2055f-73da-4a39-b11f-36001ab8d8a9"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\textures": {
+      "time": 1731407060439.475,
+      "uuid": "067880fc-064b-4155-a1ba-4c7c6a14caee"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\UI": {
+      "time": 1731407060437.4243,
+      "uuid": "10501c6c-c082-4704-9410-06ea2b6971a3"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\AudioMgr.ts": {
+      "time": 1731407060432.4243,
+      "uuid": "d65c9d0d-3193-4224-9132-6110088b1afb"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\Bird.ts": {
+      "time": 1731407060432.4243,
+      "uuid": "94d96a89-800d-494b-90a9-a6ac76c0ba49"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\GameData.ts": {
+      "time": 1731407060433.424,
+      "uuid": "2e23d66c-1726-4dde-a9b1-f6634c7e19e7"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\GameManager.ts": {
+      "time": 1731407060434.424,
+      "uuid": "263819a0-6675-4cbe-9e76-d62d3987321e"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\MoveBg.ts": {
+      "time": 1731407060434.424,
+      "uuid": "c9f914ff-44f7-4833-b5fb-826687081014"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\Pipe.ts": {
+      "time": 1731407060434.424,
+      "uuid": "018bb3aa-df1b-470d-b20d-62e97c6f4037"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\PipeSpawner.ts": {
+      "time": 1731407060435.424,
+      "uuid": "025b847c-99b8-4379-b923-65d2c49dd772"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\Tags.ts": {
+      "time": 1731407060435.424,
+      "uuid": "01ba1bbe-0f90-4636-a8a1-ced751c74d8a"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\UI\\GameOverUI.ts": {
+      "time": 1731407060436.424,
+      "uuid": "310ebac4-8ad2-4d80-85c4-adef56a76001"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\UI\\GameReadyUI.ts": {
+      "time": 1731407060436.424,
+      "uuid": "37e9eb57-eedf-44ac-a239-eda8561a63f5"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\animations.meta": {
+      "time": 1731407060366.9912
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\audios.meta": {
+      "time": 1731407060369.1501
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\prefabs.meta": {
+      "time": 1731407060430.4243
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scenes.meta": {
+      "time": 1731407060431.4243
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts.meta": {
+      "time": 1731407060432.4243
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\textures.meta": {
+      "time": 1731407060437.4243
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\UI.meta": {
+      "time": 1731407060436.424
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\AudioMgr.ts.meta": {
+      "time": 1731407060432.4243
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\Bird.ts.meta": {
+      "time": 1731407060433.424
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\GameData.ts.meta": {
+      "time": 1731407060433.424
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\GameManager.ts.meta": {
+      "time": 1731407060434.424
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\MoveBg.ts.meta": {
+      "time": 1731407060434.424
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\Pipe.ts.meta": {
+      "time": 1731407060435.424
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\PipeSpawner.ts.meta": {
+      "time": 1731407060435.424
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\Tags.ts.meta": {
+      "time": 1731407060435.424
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\UI\\GameOverUI.ts.meta": {
+      "time": 1731407060436.424
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\UI\\GameReadyUI.ts.meta": {
+      "time": 1731407060437.4243
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\animations\\Bird0_Idle.anim": {
+      "time": 1731407060366.9912,
+      "uuid": "3c1248d8-eaf1-4b92-9e74-c9ebfdd7af15"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\animations\\Bird1_Idle.anim": {
+      "time": 1731407060368.15,
+      "uuid": "5714f2f7-9537-4bc4-83c2-0a5d134343f8"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\animations\\Bird2_Idle.anim": {
+      "time": 1731407060368.15,
+      "uuid": "b1433734-c1d2-4783-8010-b396a3633273"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\audios\\bg.wav": {
+      "time": 1731407060408.137,
+      "uuid": "d89aaab6-c771-49fd-98d9-a2c49dfeeb7c"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\audios\\click.mp3": {
+      "time": 1731407060409.1384,
+      "uuid": "db052255-190d-4108-b4ec-b4981814f000"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\audios\\gameOver.mp3": {
+      "time": 1731407060429.523,
+      "uuid": "3f49bb0a-141e-4762-98fa-137d219338f1"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\prefabs\\Pipe.prefab": {
+      "time": 1731407060430.4243,
+      "uuid": "a8a20c87-9c6c-4c53-8f18-1695bd871cd0"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scenes\\Game.scene": {
+      "time": 1731407060431.4243,
+      "uuid": "a4a61809-6bf7-4142-aef1-a1c1fb739f7a"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\textures\\gameBirds.plist": {
+      "time": 1731407060437.4243,
+      "uuid": "1d4302af-ad6a-4606-b64b-3dc245a11137"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\textures\\gameBirds.png": {
+      "time": 1731407060438.424,
+      "uuid": "05957738-6fdb-4d5c-bc94-ab6f662e25ce"
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\animations\\Bird1_Idle.anim.meta": {
+      "time": 1731407060368.15
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\animations\\Bird0_Idle.anim.meta": {
+      "time": 1731407060366.9912
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\animations\\Bird2_Idle.anim.meta": {
+      "time": 1731407060369.1501
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\prefabs\\Pipe.prefab.meta": {
+      "time": 1731407060430.4243
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\scenes\\Game.scene.meta": {
+      "time": 1731407060432.4243
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\audios\\click.mp3.meta": {
+      "time": 1731407060409.1384
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\audios\\gameOver.mp3.meta": {
+      "time": 1731407060430.4243
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\audios\\bg.wav.meta": {
+      "time": 1731407060409.1384
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\textures\\gameBirds.png.meta": {
+      "time": 1731407060439.475
+    },
+    "D:\\program\\cocos\\project\\FlappyBird\\assets\\textures\\gameBirds.plist.meta": {
+      "time": 1731407060438.424
+    }
+  },
+  "missing": {
+    "788131b5-93bc-4a6a-a0fa-65919402dd1f": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scenes",
+      "time": 1730425745821.428,
+      "removeTime": 1731406862390
+    },
+    "3c1248d8-eaf1-4b92-9e74-c9ebfdd7af15": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\animations\\Bird0_Idle.anim",
+      "time": 1730433429189.3965,
+      "removeTime": 1731406862391
+    },
+    "5714f2f7-9537-4bc4-83c2-0a5d134343f8": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\animations\\Bird1_Idle.anim",
+      "time": 1730433597908.3193,
+      "removeTime": 1731406862392
+    },
+    "b1433734-c1d2-4783-8010-b396a3633273": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\animations\\Bird2_Idle.anim",
+      "time": 1730439772381.5332,
+      "removeTime": 1731406862392
+    },
+    "37e9eb57-eedf-44ac-a239-eda8561a63f5": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\UI\\GameReadyUI.ts",
+      "time": 1730450130224.4868,
+      "removeTime": 1731406862391
+    },
+    "c68099f0-3024-4f2d-96bc-e56d20f1531d": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\animations",
+      "time": 1730433018197.7253,
+      "removeTime": 1731406862390
+    },
+    "16cb39bc-5950-490e-aa56-1ae1f33a56b4": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\audios",
+      "time": 1730425661864.2158,
+      "removeTime": 1731406862390
+    },
+    "f9f53a9f-c88c-4da9-a5b7-b91b7a7963e2": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\prefabs",
+      "time": 1730428497928.7705,
+      "removeTime": 1731406862390
+    },
+    "b5e2055f-73da-4a39-b11f-36001ab8d8a9": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts",
+      "time": 1731404292931.6814,
+      "removeTime": 1731406862390
+    },
+    "067880fc-064b-4155-a1ba-4c7c6a14caee": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\textures",
+      "time": 1730425661849.5532,
+      "removeTime": 1731406862391
+    },
+    "10501c6c-c082-4704-9410-06ea2b6971a3": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\UI",
+      "time": 1730688251960.7158,
+      "removeTime": 1731406862391
+    },
+    "94d96a89-800d-494b-90a9-a6ac76c0ba49": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\Bird.ts",
+      "time": 1731405315681.9734,
+      "removeTime": 1731406862391
+    },
+    "2e23d66c-1726-4dde-a9b1-f6634c7e19e7": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\GameData.ts",
+      "time": 1731400389592.466,
+      "removeTime": 1731406862391
+    },
+    "263819a0-6675-4cbe-9e76-d62d3987321e": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\GameManager.ts",
+      "time": 1731405202346.8848,
+      "removeTime": 1731406862391
+    },
+    "c9f914ff-44f7-4833-b5fb-826687081014": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\MoveBg.ts",
+      "time": 1730445511932.7336,
+      "removeTime": 1731406862391
+    },
+    "018bb3aa-df1b-470d-b20d-62e97c6f4037": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\Pipe.ts",
+      "time": 1730451038356.375,
+      "removeTime": 1731406862391
+    },
+    "025b847c-99b8-4379-b923-65d2c49dd772": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\PipeSpawner.ts",
+      "time": 1730700181909.0037,
+      "removeTime": 1731406862391
+    },
+    "01ba1bbe-0f90-4636-a8a1-ced751c74d8a": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\Tags.ts",
+      "time": 1730691253572.52,
+      "removeTime": 1731406862391
+    },
+    "310ebac4-8ad2-4d80-85c4-adef56a76001": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\UI\\GameOverUI.ts",
+      "time": 1731406529110.5183,
+      "removeTime": 1731406862391
+    },
+    "d89aaab6-c771-49fd-98d9-a2c49dfeeb7c": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\audios\\bg.wav",
+      "time": 1708779097000,
+      "removeTime": 1731406862392
+    },
+    "db052255-190d-4108-b4ec-b4981814f000": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\audios\\click.mp3",
+      "time": 1708779097000,
+      "removeTime": 1731406862392
+    },
+    "3f49bb0a-141e-4762-98fa-137d219338f1": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\audios\\gameOver.mp3",
+      "time": 1708779097000,
+      "removeTime": 1731406862392
+    },
+    "a8a20c87-9c6c-4c53-8f18-1695bd871cd0": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\prefabs\\Pipe.prefab",
+      "time": 1731401888295.9236,
+      "removeTime": 1731406862392
+    },
+    "a4a61809-6bf7-4142-aef1-a1c1fb739f7a": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scenes\\Game.scene",
+      "time": 1731406375731.084,
+      "removeTime": 1731406862392
+    },
+    "1d4302af-ad6a-4606-b64b-3dc245a11137": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\textures\\gameBirds.plist",
+      "time": 1708779551000,
+      "removeTime": 1731406862392
+    },
+    "05957738-6fdb-4d5c-bc94-ab6f662e25ce": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\textures\\gameBirds.png",
+      "time": 1708779551000,
+      "removeTime": 1731406862392
+    },
+    "d65c9d0d-3193-4224-9132-6110088b1afb": {
+      "path": "D:\\program\\cocos\\project\\FlappyBird\\assets\\scripts\\AudioMgr.ts",
+      "time": 1731405003226.0967,
+      "removeTime": 1731406862392
+    }
+  }
+}

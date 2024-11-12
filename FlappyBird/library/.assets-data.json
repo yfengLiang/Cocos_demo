@@ -1,0 +1,500 @@
+{
+  "05957738-6fdb-4d5c-bc94-ab6f662e25ce": {
+    "url": "db://assets/textures/gameBirds.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "067880fc-064b-4155-a1ba-4c7c6a14caee": {
+    "url": "db://assets/textures",
+    "value": {},
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137": {
+    "url": "db://assets/textures/gameBirds.plist",
+    "value": {
+      "depends": [
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@131c3",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@9df0a",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@87bf4",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@b3423",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@350b3",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@75426",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@25cab",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@2021b",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@0f436",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@77351",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@b28f9",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@89095",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@82d96",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@e9aa5",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@8fc26",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@6588a",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@d6811",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@25afa",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@830d5",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@471ee",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@cfcf8",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@40f24",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@1d7ef",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@f8750",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@39b19",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@d179a",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@0d8ee"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@75426": {
+    "url": "db://assets/textures/gameBirds.plist@75426",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@77351": {
+    "url": "db://assets/textures/gameBirds.plist@77351",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@89095": {
+    "url": "db://assets/textures/gameBirds.plist@89095",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@131c3": {
+    "url": "db://assets/textures/gameBirds.plist@131c3",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@9df0a": {
+    "url": "db://assets/textures/gameBirds.plist@9df0a",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@87bf4": {
+    "url": "db://assets/textures/gameBirds.plist@87bf4",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@b3423": {
+    "url": "db://assets/textures/gameBirds.plist@b3423",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@350b3": {
+    "url": "db://assets/textures/gameBirds.plist@350b3",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@25cab": {
+    "url": "db://assets/textures/gameBirds.plist@25cab",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@2021b": {
+    "url": "db://assets/textures/gameBirds.plist@2021b",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a": {
+    "url": "db://assets/textures/gameBirds.png@6c48a",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@0f436": {
+    "url": "db://assets/textures/gameBirds.plist@0f436",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@b28f9": {
+    "url": "db://assets/textures/gameBirds.plist@b28f9",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d89aaab6-c771-49fd-98d9-a2c49dfeeb7c": {
+    "url": "db://assets/audios/bg.wav",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "db052255-190d-4108-b4ec-b4981814f000": {
+    "url": "db://assets/audios/click.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "16cb39bc-5950-490e-aa56-1ae1f33a56b4": {
+    "url": "db://assets/audios",
+    "value": {},
+    "versionCode": 1
+  },
+  "3f49bb0a-141e-4762-98fa-137d219338f1": {
+    "url": "db://assets/audios/gameOver.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@82d96": {
+    "url": "db://assets/textures/gameBirds.plist@82d96",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "05957738-6fdb-4d5c-bc94-ab6f662e25ce@f9941": {
+    "url": "db://assets/textures/gameBirds.png@f9941",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@e9aa5": {
+    "url": "db://assets/textures/gameBirds.plist@e9aa5",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@8fc26": {
+    "url": "db://assets/textures/gameBirds.plist@8fc26",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@6588a": {
+    "url": "db://assets/textures/gameBirds.plist@6588a",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@d6811": {
+    "url": "db://assets/textures/gameBirds.plist@d6811",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@25afa": {
+    "url": "db://assets/textures/gameBirds.plist@25afa",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@830d5": {
+    "url": "db://assets/textures/gameBirds.plist@830d5",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@471ee": {
+    "url": "db://assets/textures/gameBirds.plist@471ee",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@cfcf8": {
+    "url": "db://assets/textures/gameBirds.plist@cfcf8",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@40f24": {
+    "url": "db://assets/textures/gameBirds.plist@40f24",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@1d7ef": {
+    "url": "db://assets/textures/gameBirds.plist@1d7ef",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@f8750": {
+    "url": "db://assets/textures/gameBirds.plist@f8750",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@39b19": {
+    "url": "db://assets/textures/gameBirds.plist@39b19",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@d179a": {
+    "url": "db://assets/textures/gameBirds.plist@d179a",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d4302af-ad6a-4606-b64b-3dc245a11137@0d8ee": {
+    "url": "db://assets/textures/gameBirds.plist@0d8ee",
+    "value": {
+      "depends": [
+        "05957738-6fdb-4d5c-bc94-ab6f662e25ce@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "788131b5-93bc-4a6a-a0fa-65919402dd1f": {
+    "url": "db://assets/scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "a4a61809-6bf7-4142-aef1-a1c1fb739f7a": {
+    "url": "db://assets/scenes/Game.scene",
+    "value": {
+      "depends": [
+        "a4a61809-6bf7-4142-aef1-a1c1fb739f7a",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@131c3",
+        "a8a20c87-9c6c-4c53-8f18-1695bd871cd0",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@82d96",
+        "d89aaab6-c771-49fd-98d9-a2c49dfeeb7c",
+        "3f49bb0a-141e-4762-98fa-137d219338f1",
+        "db052255-190d-4108-b4ec-b4981814f000",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@75426",
+        "3c1248d8-eaf1-4b92-9e74-c9ebfdd7af15",
+        "5714f2f7-9537-4bc4-83c2-0a5d134343f8",
+        "b1433734-c1d2-4783-8010-b396a3633273",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@d179a",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@39b19",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@0d8ee",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@f8750",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@e9aa5",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@8fc26",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@6588a",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@d6811",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@25afa",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@1d7ef",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@89095",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+      ],
+      "dependScripts": [
+        "c9f914ff-44f7-4833-b5fb-826687081014",
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "025b847c-99b8-4379-b923-65d2c49dd772",
+        "263819a0-6675-4cbe-9e76-d62d3987321e",
+        "94d96a89-800d-494b-90a9-a6ac76c0ba49",
+        "37e9eb57-eedf-44ac-a239-eda8561a63f5",
+        "310ebac4-8ad2-4d80-85c4-adef56a76001"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b5e2055f-73da-4a39-b11f-36001ab8d8a9": {
+    "url": "db://assets/scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c9f914ff-44f7-4833-b5fb-826687081014": {
+    "url": "db://assets/scripts/MoveBg.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f9f53a9f-c88c-4da9-a5b7-b91b7a7963e2": {
+    "url": "db://assets/prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "a8a20c87-9c6c-4c53-8f18-1695bd871cd0": {
+    "url": "db://assets/prefabs/Pipe.prefab",
+    "value": {
+      "depends": [
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@40f24",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@cfcf8"
+      ],
+      "dependScripts": [
+        "018bb3aa-df1b-470d-b20d-62e97c6f4037"
+      ]
+    },
+    "versionCode": 1
+  },
+  "018bb3aa-df1b-470d-b20d-62e97c6f4037": {
+    "url": "db://assets/scripts/Pipe.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "263819a0-6675-4cbe-9e76-d62d3987321e": {
+    "url": "db://assets/scripts/GameManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "025b847c-99b8-4379-b923-65d2c49dd772": {
+    "url": "db://assets/scripts/PipeSpawner.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c68099f0-3024-4f2d-96bc-e56d20f1531d": {
+    "url": "db://assets/animations",
+    "value": {},
+    "versionCode": 1
+  },
+  "3c1248d8-eaf1-4b92-9e74-c9ebfdd7af15": {
+    "url": "db://assets/animations/Bird0_Idle.anim",
+    "value": {
+      "depends": [
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@87bf4",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@b3423",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@350b3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5714f2f7-9537-4bc4-83c2-0a5d134343f8": {
+    "url": "db://assets/animations/Bird1_Idle.anim",
+    "value": {
+      "depends": [
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@75426",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@25cab",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@2021b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b1433734-c1d2-4783-8010-b396a3633273": {
+    "url": "db://assets/animations/Bird2_Idle.anim",
+    "value": {
+      "depends": [
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@0f436",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@77351",
+        "1d4302af-ad6a-4606-b64b-3dc245a11137@b28f9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "94d96a89-800d-494b-90a9-a6ac76c0ba49": {
+    "url": "db://assets/scripts/Bird.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "01ba1bbe-0f90-4636-a8a1-ced751c74d8a": {
+    "url": "db://assets/scripts/Tags.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "10501c6c-c082-4704-9410-06ea2b6971a3": {
+    "url": "db://assets/scripts/UI",
+    "value": {},
+    "versionCode": 1
+  },
+  "37e9eb57-eedf-44ac-a239-eda8561a63f5": {
+    "url": "db://assets/scripts/UI/GameReadyUI.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2e23d66c-1726-4dde-a9b1-f6634c7e19e7": {
+    "url": "db://assets/scripts/GameData.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "310ebac4-8ad2-4d80-85c4-adef56a76001": {
+    "url": "db://assets/scripts/UI/GameOverUI.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d65c9d0d-3193-4224-9132-6110088b1afb": {
+    "url": "db://assets/scripts/AudioMgr.ts",
+    "value": {},
+    "versionCode": 1
+  }
+}
