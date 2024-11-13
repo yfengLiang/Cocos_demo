@@ -8,7 +8,31 @@
       "buildPath": "project://build",
       "outputName": "web-mobile",
       "mainBundleCompressionType": "merge_dep",
-      "platform": "web-mobile"
-    }
+      "platform": "web-mobile",
+      "useSplashScreen": false
+    },
+    "options": {
+      "web-mobile": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "taskOptionsMap": {
+      "1731407503894": {
+        "useWebGPU": true,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1731464707919": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.8"
   }
 }

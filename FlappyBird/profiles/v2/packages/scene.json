@@ -16,7 +16,10 @@
     "toolsVisibility3d": true
   },
   "__version__": "1.0.1",
-  "builder": {},
+  "builder": {
+    "taskOptionsMap": {},
+    "__version__": "1.3.8"
+  },
   "snap-configs": {
     "position": {
       "x": 1,

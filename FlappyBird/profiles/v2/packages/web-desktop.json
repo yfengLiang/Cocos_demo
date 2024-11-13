@@ -4,7 +4,72 @@
     "common": {
       "polyfills": {
         "asyncFunctions": true
+      },
+      "buildPath": "project://build",
+      "outputName": "web-desktop",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "web-desktop"
+    },
+    "options": {
+      "web-desktop": {
+        "useWebGPU": false,
+        "resolution": {
+          "designWidth": 720,
+          "designHeight": 1280
+        },
+        "__version__": "1.0.1"
       }
-    }
+    },
+    "taskOptionsMap": {
+      "1731465033865": {
+        "useWebGPU": false,
+        "resolution": {
+          "designWidth": 720,
+          "designHeight": 1280
+        },
+        "__version__": "1.0.1"
+      },
+      "1731465170747": {
+        "useWebGPU": false,
+        "resolution": {
+          "designWidth": 720,
+          "designHeight": 1150
+        },
+        "__version__": "1.0.1"
+      },
+      "1731465407678": {
+        "useWebGPU": false,
+        "resolution": {
+          "designWidth": 720,
+          "designHeight": 1150
+        },
+        "__version__": "1.0.1"
+      },
+      "1731465522903": {
+        "useWebGPU": false,
+        "resolution": {
+          "designWidth": 718,
+          "designHeight": 1150
+        },
+        "__version__": "1.0.1"
+      },
+      "1731465581135": {
+        "useWebGPU": false,
+        "resolution": {
+          "designWidth": 710,
+          "designHeight": 1150
+        },
+        "__version__": "1.0.1"
+      },
+      "1731465810554": {
+        "useWebGPU": false,
+        "resolution": {
+          "designWidth": 720,
+          "designHeight": 1280
+        },
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.8"
   }
 }
