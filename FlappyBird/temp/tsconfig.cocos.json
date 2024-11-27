@@ -15,7 +15,7 @@
         "D:\\program\\cocos\\editors\\Creator\\3.8.4\\resources\\resources\\3d\\engine\\editor\\assets\\*"
       ],
       "db://assets/*": [
-        "D:\\program\\cocos\\project\\FlappyBird\\assets\\*"
+        "D:\\program\\cocos\\Cocos_demo2\\FlappyBird\\assets\\*"
       ]
     },
     "experimentalDecorators": true,

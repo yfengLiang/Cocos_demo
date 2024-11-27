@@ -2,6 +2,12 @@
   "path": {
     "D:\\program\\cocos\\project\\FlappyBird\\assets\\textures\\gameBirds.plist": [
       "D:\\program\\cocos\\project\\FlappyBird\\assets\\textures\\gameBirds.png"
+    ],
+    "D:\\program\\Cocos_demo\\FlappyBird\\assets\\textures\\gameBirds.plist": [
+      "D:\\program\\Cocos_demo\\FlappyBird\\assets\\textures\\gameBirds.png"
+    ],
+    "D:\\program\\cocos\\Cocos_demo2\\FlappyBird\\assets\\textures\\gameBirds.plist": [
+      "D:\\program\\cocos\\Cocos_demo2\\FlappyBird\\assets\\textures\\gameBirds.png"
     ]
   }
 }

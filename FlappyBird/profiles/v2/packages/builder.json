@@ -15,14 +15,77 @@
   },
   "BuildTaskManager": {
     "taskMap": {
-      "1731465810554": {
+      "1732672339375": {
         "type": "build",
-        "id": "1731465810554",
+        "id": "1732672339375",
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "2024-11-13 10:43:42 build success in 11 s!",
-        "detailMessage": "// ---- build task cocos-service：onAfterCompressSettings ----\r",
+        "message": "2024-11-27 09:52:33 build success in 14 s!",
+        "detailMessage": "// ---- build task cocos-service：onAfterBuild ----\r",
+        "options": {
+          "name": "FlappyBird",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "md5CacheOptions": {
+            "excludes": [],
+            "includes": [],
+            "replaceOnly": [],
+            "handleTemplateMd5Link": true
+          },
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": false,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "a4a61809-6bf7-4142-aef1-a1c1fb739f7a",
+          "outputName": "web-mobile",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/Game.scene",
+              "uuid": "a4a61809-6bf7-4142-aef1-a1c1fb739f7a"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "logDest": "project://temp/builder/log/web-mobile2024-11-27 09-52.log"
+        },
+        "time": "2024-11-27 09:52:19",
+        "dirty": false
+      },
+      "1732682004437": {
+        "type": "build",
+        "id": "1732682004437",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-11-27 12:33:35 build success in 11 s!",
+        "detailMessage": "构建引擎脚本 start..., progress: 19%\r",
         "options": {
           "name": "FlappyBird",
           "server": "",
@@ -62,8 +125,8 @@
           "bundleCommonChunk": false,
           "packAutoAtlas": true,
           "startScene": "a4a61809-6bf7-4142-aef1-a1c1fb739f7a",
-          "outputName": "web-desktop-002",
-          "taskName": "web-desktop-002",
+          "outputName": "web-desktop",
+          "taskName": "web-desktop",
           "scenes": [
             {
               "url": "db://assets/scenes/Game.scene",
@@ -73,10 +136,9 @@
           "wasmCompressionMode": false,
           "packages": {},
           "__version__": "1.3.8",
-          "buildMode": "normal",
-          "logDest": "project://temp/builder/log/web-desktop2024-11-13 10-43.log"
+          "logDest": "project://temp/builder/log/web-desktop2024-11-27 12-33.log"
         },
-        "time": "2024-11-13 10:43:30",
+        "time": "2024-11-27 12:33:24",
         "dirty": false
       }
     }

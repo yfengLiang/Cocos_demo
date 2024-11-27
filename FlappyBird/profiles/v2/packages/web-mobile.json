@@ -6,7 +6,7 @@
         "asyncFunctions": true
       },
       "buildPath": "project://build",
-      "outputName": "web-mobile",
+      "outputName": "web-mobile-001",
       "mainBundleCompressionType": "merge_dep",
       "platform": "web-mobile",
       "useSplashScreen": false
@@ -27,6 +27,12 @@
         "__version__": "1.0.1"
       },
       "1731464707919": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1732672339375": {
         "useWebGPU": false,
         "orientation": "auto",
         "embedWebDebugger": false,

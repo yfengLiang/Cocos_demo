@@ -1,0 +1,462 @@
+2024-11-27 09:46:05 - log: Load engine in D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine
+2024-11-27 09:46:06 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+2024-11-27 09:46:06 - log: Register native engine in D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\native
+2024-11-27 09:46:06 - log: Request namespace: device-list
+2024-11-27 09:46:19 - log: [Scene] meshopt wasm decoder initialized
+2024-11-27 09:46:19 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2024-11-27 09:46:19 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2024-11-27 09:46:20 - log: [Scene] [PHYSICS]: using builtin.
+2024-11-27 09:46:20 - log: [Scene] Cocos Creator v3.8.4
+2024-11-27 09:46:20 - log: [Scene] Using custom pipeline: Builtin
+2024-11-27 09:46:20 - warn: [Scene] Found possible circular reference in "pack:///chunks/56/56c16667fc9aa8da7ca0a747e5ca7ec66ba4f55a.js", happened when use "Bird" imported from "./Bird"  Error: 
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/56/file:/D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts:25:12)
+    at doExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at GlobalEnv.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:1732)
+    at ScriptManager.init (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:3569)
+    at EngineStartup.openEngine (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\engine\index.ccc:1:4229)
+    at StartupManager.configEngine (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\index.ccc:1:1668)
+    at StartupManager.initEngine (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\index.ccc:1:2173)Error: [Scene] Found possible circular reference in "pack:///chunks/56/56c16667fc9aa8da7ca0a747e5ca7ec66ba4f55a.js", happened when use "Bird" imported from "./Bird"  Error: 
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at GlobalEnv.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:1732)
+    at ScriptManager.init (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:3569)
+    at EngineStartup.openEngine (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\engine\index.ccc:1:4229)
+    at StartupManager.configEngine (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\index.ccc:1:1668)
+    at StartupManager.initEngine (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\index.ccc:1:2173)
+    at Logger._logHandler (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:487)
+    at Logger.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:55:18)
+    at console.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:131:16)
+    at console.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at Module.report (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6a/cce:/internal/code-quality/cr.mjs:15:13)
+    at _reportPossibleCrUseOfBird (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/56/56c16667fc9aa8da7ca0a747e5ca7ec66ba4f55a.js:13:17)
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/56/file:/D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts:25:12)
+    at doExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at GlobalEnv.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:1732)
+    at ScriptManager.init (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:3569)
+    at EngineStartup.openEngine (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\engine\index.ccc:1:4229)
+    at StartupManager.configEngine (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\index.ccc:1:1668)
+    at StartupManager.initEngine (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\index.ccc:1:2173)
+2024-11-27 09:46:20 - warn: [Scene] You are explicitly specifying `undefined` type to cc property "bird" of cc class "GameManager".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+                              // When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',
+                              // the `Bar` imported here is `undefined` until './bar' finish its execution.
+                              // It leads to that
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}Error: [Scene] You are explicitly specifying `undefined` type to cc property "bird" of cc class "GameManager".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}
+    at Logger._logHandler (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:487)
+    at Logger.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:55:18)
+    at console.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:131:16)
+    at console.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at warn (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154623:12)
+    at warnID (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154811:5)
+    at parseAttributes (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:135709:7)
+    at defineProp (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:135456:5)
+    at declareProperties (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:135620:11)
+    at CCClass (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:135645:5)
+    at eval (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271795:21)
+    at eval (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272806:18)
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/56/56c16667fc9aa8da7ca0a747e5ca7ec66ba4f55a.js:98:123)
+    at doExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at GlobalEnv.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:1732)
+    at ScriptManager.init (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:3569)
+    at EngineStartup.openEngine (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\engine\index.ccc:1:4229)
+    at StartupManager.configEngine (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\index.ccc:1:1668)
+    at StartupManager.initEngine (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\index.ccc:1:2173)
+2024-11-27 09:46:21 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-11-27 09:47:32 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2024-11-27 09:47:32 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+2024-11-27 09:52:10 - warn: failed to connect login server due to request timeout
+2024-11-27 09:52:20 - warn: [Assets] Found possible circular reference in "pack:///chunks/56/56c16667fc9aa8da7ca0a747e5ca7ec66ba4f55a.js", happened when use "Bird" imported from "./Bird"  Error: 
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/56/file:/D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts:25:12)
+    at doExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2214
+    at GlobalEnv.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1136)
+    at loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2043)
+    at BundleManager.loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:2774)
+    at BundleManager.initAsset (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4128)
+    at BuildTask.handle (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\tasks\data-task\asset.ccc:1:43)
+    at BuildTask.runBuildTask (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13301)
+    at BuildTask.run (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:3913)
+    at build (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4259)
+    at Ipc.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:206)Warn: [Assets] Found possible circular reference in "pack:///chunks/56/56c16667fc9aa8da7ca0a747e5ca7ec66ba4f55a.js", happened when use "Bird" imported from "./Bird"  Error: 
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2214
+    at GlobalEnv.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1136)
+    at loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2043)
+    at BundleManager.loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:2774)
+    at BundleManager.initAsset (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4128)
+    at BuildTask.handle (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\tasks\data-task\asset.ccc:1:43)
+    at BuildTask.runBuildTask (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13301)
+    at BuildTask.run (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:3913)
+    at build (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4259)
+    at Ipc.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:206)
+    at Logger._logHandler (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc:29:27)
+    at Logger.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:55:18)
+    at NewConsole.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:131:16)
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at NewConsole.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2337)
+    at Module.report (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6a/cce:/internal/code-quality/cr.mjs:15:13)
+    at _reportPossibleCrUseOfBird (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/56/56c16667fc9aa8da7ca0a747e5ca7ec66ba4f55a.js:13:17)
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/56/file:/D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts:25:12)
+    at doExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2214
+    at GlobalEnv.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1136)
+    at loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2043)
+    at BundleManager.loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:2774)
+    at BundleManager.initAsset (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4128)
+    at BuildTask.handle (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\tasks\data-task\asset.ccc:1:43)
+    at BuildTask.runBuildTask (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13301)
+    at BuildTask.run (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:3913)
+    at build (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4259)
+    at Ipc.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:206)
+2024-11-27 09:52:20 - warn: [Assets] You are explicitly specifying `undefined` type to cc property "bird" of cc class "GameManager".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+                              // When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',
+                              // the `Bar` imported here is `undefined` until './bar' finish its execution.
+                              // It leads to that
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}Warn: [Assets] You are explicitly specifying `undefined` type to cc property "bird" of cc class "GameManager".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}
+    at Logger._logHandler (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc:29:27)
+    at Logger.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:55:18)
+    at NewConsole.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:131:16)
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at warn (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154623:12)
+    at warnID (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154811:5)
+    at parseAttributes (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:135709:7)
+    at defineProp (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:135456:5)
+    at declareProperties (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:135620:11)
+    at CCClass (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:135645:5)
+    at eval (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271795:21)
+    at eval (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272806:18)
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/56/56c16667fc9aa8da7ca0a747e5ca7ec66ba4f55a.js:98:123)
+    at doExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2214
+    at GlobalEnv.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1136)
+    at loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2043)
+    at BundleManager.loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:2774)
+    at BundleManager.initAsset (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4128)
+    at BuildTask.handle (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\tasks\data-task\asset.ccc:1:43)
+    at BuildTask.runBuildTask (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13301)
+    at BuildTask.run (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:3913)
+    at build (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4259)
+    at Ipc.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:206)
+2024-11-27 09:52:29 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/Bird.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/Bird.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/MoveBg.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts
+Warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/Bird.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/Bird.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/MoveBg.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts
+
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at NewConsole.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2337)
+    at Socket.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3399)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+2024-11-27 09:52:29 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/PipeSpawner.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/Pipe.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/UI/GameReadyUI.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts
+Warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/PipeSpawner.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/Pipe.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/UI/GameReadyUI.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts
+
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at NewConsole.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2337)
+    at Socket.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3399)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+2024-11-27 12:30:50 - warn: A panel(builder) is currently open. Please try again later.
+2024-11-27 12:30:53 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2024-11-27 12:30:53 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+2024-11-27 12:32:52 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2024-11-27 12:32:52 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+2024-11-27 12:33:25 - warn: [Assets] Found possible circular reference in "pack:///chunks/56/56c16667fc9aa8da7ca0a747e5ca7ec66ba4f55a.js", happened when use "Bird" imported from "./Bird"  Error: 
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/56/file:/D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts:25:12)
+    at doExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2214
+    at GlobalEnv.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1136)
+    at loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2043)
+    at BundleManager.loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:2774)
+    at BundleManager.initAsset (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4128)
+    at BuildTask.handle (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\tasks\data-task\asset.ccc:1:43)
+    at BuildTask.runBuildTask (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13301)
+    at BuildTask.run (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:3913)
+    at build (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4259)
+    at Ipc.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:206)Warn: [Assets] Found possible circular reference in "pack:///chunks/56/56c16667fc9aa8da7ca0a747e5ca7ec66ba4f55a.js", happened when use "Bird" imported from "./Bird"  Error: 
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2214
+    at GlobalEnv.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1136)
+    at loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2043)
+    at BundleManager.loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:2774)
+    at BundleManager.initAsset (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4128)
+    at BuildTask.handle (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\tasks\data-task\asset.ccc:1:43)
+    at BuildTask.runBuildTask (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13301)
+    at BuildTask.run (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:3913)
+    at build (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4259)
+    at Ipc.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:206)
+    at Logger._logHandler (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc:29:27)
+    at Logger.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:55:18)
+    at NewConsole.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:131:16)
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at NewConsole.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2337)
+    at Module.report (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6a/cce:/internal/code-quality/cr.mjs:15:13)
+    at _reportPossibleCrUseOfBird (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/56/56c16667fc9aa8da7ca0a747e5ca7ec66ba4f55a.js:13:17)
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/56/file:/D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts:25:12)
+    at doExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2214
+    at GlobalEnv.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1136)
+    at loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2043)
+    at BundleManager.loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:2774)
+    at BundleManager.initAsset (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4128)
+    at BuildTask.handle (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\tasks\data-task\asset.ccc:1:43)
+    at BuildTask.runBuildTask (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13301)
+    at BuildTask.run (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:3913)
+    at build (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4259)
+    at Ipc.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:206)
+2024-11-27 12:33:25 - warn: [Assets] You are explicitly specifying `undefined` type to cc property "bird" of cc class "GameManager".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+                              // When importing './bar', execution of './bar' is hung on to wait execution of 'foo.ts',
+                              // the `Bar` imported here is `undefined` until './bar' finish its execution.
+                              // It leads to that
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}Warn: [Assets] You are explicitly specifying `undefined` type to cc property "bird" of cc class "GameManager".
+Is this intended? If not, this may indicate a circular reference.
+For example:
+
+ 
+// foo.ts
+import { _decorator } from 'cc';
+import { Bar } from './bar';  // Given that './bar' also reference 'foo.ts'.
+@_decorator.ccclass           //  ↓
+export class Foo {            //  ↓
+    @_decorator.type(Bar)     //  → is equivalent to `@_decorator.type(undefined)`
+    public bar: Bar;          // To eliminate this error, either:
+                              // - Refactor your module structure(recommended), or
+                              // - specify the type as cc class name: `@_decorator.type('Bar'/* or any name you specified for `Bar` */)`
+}
+    at Logger._logHandler (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc:29:27)
+    at Logger.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:55:18)
+    at NewConsole.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:131:16)
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at warn (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154623:12)
+    at warnID (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:154811:5)
+    at parseAttributes (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:135709:7)
+    at defineProp (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:135456:5)
+    at declareProperties (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:135620:11)
+    at CCClass (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:135645:5)
+    at eval (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:271795:21)
+    at eval (D:\program\cocos\editors\Creator\3.8.4\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272806:18)
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/56/56c16667fc9aa8da7ca0a747e5ca7ec66ba4f55a.js:98:123)
+    at doExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/program/cocos/Cocos_demo2/FlappyBird/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2214
+    at GlobalEnv.record (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:1136)
+    at loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\script\load-script.ccc:1:2043)
+    at BundleManager.loadScript (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:2774)
+    at BundleManager.initAsset (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\asset-handler\bundle\index.ccc:1:4128)
+    at BuildTask.handle (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\tasks\data-task\asset.ccc:1:43)
+    at BuildTask.runBuildTask (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:13301)
+    at BuildTask.run (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:3913)
+    at build (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4259)
+    at Ipc.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:206)
+2024-11-27 12:33:33 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/Bird.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/Bird.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/MoveBg.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/PipeSpawner.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/Pipe.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/UI/GameReadyUI.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts
+Warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/Bird.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/Bird.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/MoveBg.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/PipeSpawner.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/Pipe.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/UI/GameReadyUI.ts -> file:///D:/program/cocos/Cocos_demo2/FlappyBird/assets/scripts/GameManager.ts
+
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at Object.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at NewConsole.warn (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2337)
+    at Socket.<anonymous> (D:\program\cocos\editors\Creator\3.8.4\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3399)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+2024-11-27 12:46:01 - warn: A panel(builder) is currently open. Please try again later.
+2024-11-27 12:46:05 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2024-11-27 12:46:05 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
