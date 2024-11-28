@@ -3,4 +3,4 @@
 
 demo合集内集成了转盘抽奖、打砖块等……
 
-demo合集：
+demo合集：http://demo.i666.fun/
